@@ -1,0 +1,37 @@
+# Git and documentation
+.git
+.github
+docs
+README.md
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Dependencies and generated output
+node_modules
+.venv
+venv
+__pycache__
+.pytest_cache
+.mypy_cache
+.ruff_cache
+coverage
+dist
+build
+
+# Terraform and Kubernetes local state
+.terraform
+*.tfstate
+*.tfstate.*
+.kube
+kubeconfig
+
+# Local runtime data
+data
+tmp
+*.log
